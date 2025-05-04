@@ -1,0 +1,20 @@
+{
+    "name": "shs/oauth-api-demo",
+    "description": "Demonstration app for the SBHS Portal API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sydney Boys High School",
+            "email": "webmaster@sbhs.nsw.edu.au"
+        }
+    ],
+    "require": {
+        "league/oauth2-client": "^2.8",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": { 
+           "App\\": "src"
+        }
+    }
+}
